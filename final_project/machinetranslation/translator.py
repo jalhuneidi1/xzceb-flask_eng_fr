@@ -14,13 +14,13 @@ url = os.environ['url']
 
 # setting up watson intance, prepare the authenticator
 # apikey and url obtained from Wastson instance created on IBM cloud
-authenticator = IAMAuthenticator('apikey')
+authenticator = IAMAuthenticator('MNucSok99jJxp2dWm8DZG_1aiW8F09EwpremWtf8YXw_')
 language_translator = LanguageTranslatorV3(
     version='2023-03-30',
     authenticator=authenticator
 )
 
-language_translator.set_service_url('url')
+language_translator.set_service_url('https://api.us-south.language-translator.watson.cloud.ibm.com/instances/455fb491-cca0-474c-a1de-1580041859db')
 
 def english_to_french(english_text):
     '''
