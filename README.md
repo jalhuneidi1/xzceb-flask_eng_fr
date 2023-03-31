@@ -1,1 +1,1 @@
-# coding-project-template
+# Python Project for AI and Application Development
