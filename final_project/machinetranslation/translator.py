@@ -16,7 +16,7 @@ url = os.environ['url']
 # apikey and url obtained from Wastson instance created on IBM cloud
 authenticator = IAMAuthenticator('MNucSok99jJxp2dWm8DZG_1aiW8F09EwpremWtf8YXw_')
 language_translator = LanguageTranslatorV3(
-    version='2023-03-30',
+    version='2018-05-01',
     authenticator=authenticator
 )
 
